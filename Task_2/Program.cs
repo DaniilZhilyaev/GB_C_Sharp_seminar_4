@@ -8,7 +8,7 @@ int N = int.Parse(Console.ReadLine()!);
 
 int DefFrom1(int x)
 {
-    int result = 1;
+    int result = 0;
     for (int i = 1; i <= x; i++)
     {
         result = result * i;
