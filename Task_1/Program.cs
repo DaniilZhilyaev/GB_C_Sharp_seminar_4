@@ -12,7 +12,7 @@ int A = int.Parse(Console.ReadLine()!);
 int SummFrom1(int x)
 {
     int result = 0;
-    for (int i = 1; i <= x ; i++)
+    for (int i = 1; i <= x; i++)
     {
         result = result + i;
     }
